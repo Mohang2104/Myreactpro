@@ -1,6 +1,6 @@
 //App.js
 import React, { useState } from 'react';
-import './App.css';
+import './app.css';
 
 const blogData = [
   {

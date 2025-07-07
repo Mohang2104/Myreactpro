@@ -115,8 +115,8 @@ function App() {
       {activePage === "contact" && (
         <div className="page-content">
           <h2>Contact Us</h2>
-          <p>Email: contact@myblog.com</p>
-          <p>Phone: +91-9876543210</p>
+          <p>Email: mohang212004@gmail.com</p>
+          <p>Phone: +91-7358366218</p>
         </div>
       )}
     </div>

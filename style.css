@@ -1,10 +1,11 @@
-//App.css
+/* Base reset */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
 }
 
+/* Light & dark wrappers */
 .app {
   background-color: #f4f4f4;
   color: #000;
@@ -17,12 +18,13 @@ body {
   color: #ffffff;
 }
 
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #007bff;
-  color: white;
+  color: #fff;
   padding: 15px 25px;
   flex-wrap: wrap;
 }
@@ -49,7 +51,7 @@ body {
 }
 
 .toggle-mode {
-  background-color: white;
+  background-color: #fff;
   color: #007bff;
   border: none;
   padding: 8px 12px;
@@ -58,6 +60,7 @@ body {
   font-weight: bold;
 }
 
+/* Home → search */
 .search-bar {
   margin: 20px auto;
   text-align: center;
@@ -72,6 +75,7 @@ body {
   border-radius: 6px;
 }
 
+/* Blog cards */
 .blog-container {
   display: flex;
   flex-wrap: wrap;
@@ -85,7 +89,7 @@ body {
   padding: 20px;
   width: 280px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease;
   text-align: left;
 }
@@ -116,6 +120,7 @@ body {
   text-decoration: underline;
 }
 
+/* Generic page sections */
 .page-content {
   max-width: 800px;
   margin: 40px auto;
@@ -128,4 +133,4 @@ body {
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
-}
+  }
